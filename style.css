@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+}
+.box{
+    max-width:1200px ;
+    background-color: honeydew;
+    margin: 0 auto;
+    padding: 30px;
+}
+.image{
+height: 150px;
+ width: 150px;
+ border: 3px solid grey;
+border-radius: 50%;
+float: left;
+}
+.bio{
+float: left;
+padding: 30px;
+}
+h1,h2,h3,h4,h6{
+    color: navy;
+}
+h5{
+    color: darkorange;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration:none;
+    color: darkmagenta;
+    font-weight: bold;
+}
+.contact a:hover {
+    text-decoration: underline;
+    color:red;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid red 3px;
+    border-radius: 50%;
+    border-bottom: none;
+    width: 100%;
+    margin: 30px auto;
+}
+#personal{
+
+}
+.perinfo{
+}
+.leftinfo{
+    width: 30%;
+    float: left;
+}
+.rightinfo{
+    width: 70%;
+    float: left;
+}
+#work{}
+.contact{}
+.leftwork{
+    width: 30%;
+    float: left;
+}
+.rightwork{
+  width: 70%;
+  float: left;
+}
+#edu{}
+.eduinfo{}
+.leftedu{
+    float: left;
+    width: 30%;
+}
+.midedu{
+    float: left;
+    width: 45%;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer a{
+     text-decoration: none;
+     color: blanchedalmond;
+     padding: 10px;
+}
+.footer p{
+    color: blanchedalmond;
+    margin-top: 20px;
+}
